@@ -7,36 +7,18 @@ let singhs = [
 ]
 
 let stageEl = document.getElementById("stage")
-let player1El = document.getElementById("player-1")
-let player2El = document.getElementById("player-2")
 let fightButton = document.getElementById("fightButton")
-
-function displayImage(src1, src2, p1Name, p2Name) {
-    let img1 = document.createElement("img")
-    let img2 = document.createElement("img")
-    let name1 = document.createElement("p")
-    let name2 = document.createElement("p")
-
-    img1.src = src1
-    img2.src = src2
-    img1.classList.add("image")
-    img2.classList.add("image")
-    name1.textContent = p1Name
-    name2.textContent = p2Name
-    
-    player1El.appendChild(img1)
-    player2El.appendChild(img2)
-    player1El.appendChild(name1)
-    player2El.appendChild(name2)
-}
+let player1pic = document.getElementById("player-1-img")
+let player2pic = document.getElementById("player-2-img")
+let player1name = document.getElementById("player-1-name")
+let player2name = document.getElementById("player-2-name")
 
 fightButton.addEventListener("click", function() {
     let player1 = Math.floor(Math.random() * singhs.length)
     let player2 = Math.floor(Math.random() * singhs.length)
-    let p1Name = `${singhs[player1].name}`
-    let p2Name = `${singhs[player2].name}`
-    // stageEl.textContent = `${singhs[player1].name} vs ${singhs[player2].name}`
-    // player1El.textContent = `${singhs[player1].name}`
-    // player2El.textContent = `${singhs[player2].name}`
-    displayImage('/img/face.jpg', '/img/face.jpg', p1Name, p2Name)
+
+    player1pic.src = '/img/face.jpg'
+    player2pic.src = '/img/face.jpg'
+    player1name.textContent = `${singhs[player1].name}`
+    player2name.textContent = `${singhs[player2].name}`
 })
