@@ -1,11 +1,14 @@
 let fighters = ["🐉", "🐥", "🐊","💩", "🦍", "🐢", "🐩", "🦭", "🦀", "🐝", "🤖", "🐘", "🐸", "🕷","🐆", "🦕", "🦁"]
 
 let singhs = [
+    {name: "cody", img: "/img/cody.jpg"},
     {name: "ella", img: "/img/ella.jpg"},
     {name: "kara", img: "/img/kara.jpg"},
     {name: "mika", img: "/img/mika.jpg"},
+    {name: "oxy", img: "/img/oxy.jpg"},
     {name: "vish", img: "/img/vish.jpg"},
     {name: "Z", img: "/img/z.jpg"},
+    {name: "Ziggy", img: "/img/ziggy.jpg"},
 ]
 
 let stageEl = document.getElementById("stage")
