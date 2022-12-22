@@ -1,9 +1,9 @@
 let fighters = ["🐉", "🐥", "🐊","💩", "🦍", "🐢", "🐩", "🦭", "🦀", "🐝", "🤖", "🐘", "🐸", "🕷","🐆", "🦕", "🦁"]
 
 let singhs = [
-    {name: "ella", img: "face.jpg"},
-    {name: "kara", img: "face.jpg"},
-    {name: "vish", img: "face.jpg"},
+    {name: "ella", img: "/img/ella.jpg"},
+    {name: "kara", img: "/img/kara.jpg"},
+    {name: "vish", img: "/img/vish.jpg"},
 ]
 
 let stageEl = document.getElementById("stage")
@@ -17,8 +17,8 @@ fightButton.addEventListener("click", function() {
     let player1 = Math.floor(Math.random() * singhs.length)
     let player2 = Math.floor(Math.random() * singhs.length)
 
-    player1pic.src = '/img/face.jpg'
-    player2pic.src = '/img/face.jpg'
+    player1pic.src = `${singhs[player1].img}`
+    player2pic.src = `${singhs[player2].img}`
     player1name.textContent = `${singhs[player1].name}`
     player2name.textContent = `${singhs[player2].name}`
 })
