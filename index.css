@@ -30,12 +30,16 @@ h1 {
     outline: 1px solid red;
     min-height: 3rem;
     min-width: 3rem;
+    display: flex;
+    flex-direction: column;
 }
 
 #player-2 {
     outline: 1px solid white;
     min-height: 3rem;
     min-width: 3rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .image {
