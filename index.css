@@ -38,6 +38,11 @@ h1 {
     min-width: 3rem;
 }
 
+.image {
+    width: 320px;
+    height: 320px;
+}
+
 button {
     cursor: pointer;
     border: 0;
