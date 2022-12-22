@@ -3,7 +3,9 @@ let fighters = ["🐉", "🐥", "🐊","💩", "🦍", "🐢", "🐩", "🦭", "
 let singhs = [
     {name: "ella", img: "/img/ella.jpg"},
     {name: "kara", img: "/img/kara.jpg"},
+    {name: "mika", img: "/img/mika.jpg"},
     {name: "vish", img: "/img/vish.jpg"},
+    {name: "Z", img: "/img/z.jpg"},
 ]
 
 let stageEl = document.getElementById("stage")
