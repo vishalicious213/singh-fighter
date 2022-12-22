@@ -1,0 +1,41 @@
+body {
+    padding: 0;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    background: linear-gradient(white, blue);
+    height: 100vh;
+    color: #e98a1d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    text-shadow: 0px 3px 0px black;
+    line-height: 3rem;
+    transform: rotate(-9deg);
+    font-size: 3.5rem;
+}
+
+#stage {
+    width: 100%;
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+button {
+    cursor: pointer;
+    border: 0;
+    padding: .5rem 2rem;
+    border-radius: .75rem;
+    background: #e98a1d;
+    color: white;
+    font-family: inherit;
+    font-size: 20px
+}
+
+button:hover {
+    color: #e98a1d;
+    background: white;
+}
