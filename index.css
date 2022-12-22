@@ -16,35 +16,36 @@ h1 {
     line-height: 3rem;
     transform: rotate(-9deg);
     font-size: 3.5rem;
+    margin-bottom: 4rem;
 }
 
 #stage {
-    width: 100%;
+    width: 90%;
     font-size: 4rem;
     margin-bottom: 2rem;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 #player-1 {
-    outline: 1px solid red;
-    min-height: 3rem;
-    min-width: 3rem;
+    /* outline: 1px solid red; */
+    /* min-height: 3rem;
+    min-width: 3rem; */
     display: flex;
     flex-direction: column;
 }
 
 #player-2 {
-    outline: 1px solid white;
-    min-height: 3rem;
-    min-width: 3rem;
+    /* outline: 1px solid white; */
+    /* min-height: 3rem;
+    min-width: 3rem; */
     display: flex;
     flex-direction: column;
 }
 
-.image {
-    width: 320px;
-    height: 320px;
+#player-1-name, #player-2-name {
+    margin: 0;
 }
 
 button {
