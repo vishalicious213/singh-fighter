@@ -1,6 +1,7 @@
 // let fighters = ["🐉", "🐥", "🐊","💩", "🦍", "🐢", "🐩", "🦭", "🦀", "🐝", "🤖", "🐘", "🐸", "🕷","🐆", "🦕", "🦁"]
 
 let singhs = [
+    {name: "alma", img: "/img/alma.jpg"},
     {name: "cody", img: "/img/cody.jpg"},
     {name: "ella", img: "/img/ella.jpg"},
     {name: "godzilla", img: "/img/godzilla.jpg"},
@@ -22,7 +23,6 @@ let singhs = [
     // {name: "magic", img: "/img/z.jpg"},
     // {name: "suri", img: "/img/z.jpg"},
     // {name: "joanne", img: "/img/z.jpg"},
-    // {name: "alma", img: "/img/z.jpg"},
     // {name: "selah", img: "/img/z.jpg"},
     // {name: "chris", img: "/img/z.jpg"},
     // {name: "asher", img: "/img/z.jpg"},
