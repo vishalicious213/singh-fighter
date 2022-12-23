@@ -2,6 +2,7 @@
 
 let singhs = [
     {name: "alma", img: "/img/alma.jpg"},
+    {name: "amigo", img: "/img/amigo.jpg"},
     {name: "cody", img: "/img/cody.jpg"},
     {name: "ella", img: "/img/ella.jpg"},
     {name: "godzilla", img: "/img/godzilla.jpg"},
@@ -26,7 +27,6 @@ let singhs = [
     // {name: "selah", img: "/img/z.jpg"},
     // {name: "chris", img: "/img/z.jpg"},
     // {name: "asher", img: "/img/z.jpg"},
-    // {name: "amigo", img: "/img/z.jpg"},
     // {name: "subi", img: "/img/z.jpg"},
     // {name: "liz", img: "/img/z.jpg"},
     // {name: "sam", img: "/img/z.jpg"},
