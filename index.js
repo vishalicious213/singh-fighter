@@ -1,17 +1,22 @@
-let fighters = ["🐉", "🐥", "🐊","💩", "🦍", "🐢", "🐩", "🦭", "🦀", "🐝", "🤖", "🐘", "🐸", "🕷","🐆", "🦕", "🦁"]
+// let fighters = ["🐉", "🐥", "🐊","💩", "🦍", "🐢", "🐩", "🦭", "🦀", "🐝", "🤖", "🐘", "🐸", "🕷","🐆", "🦕", "🦁"]
 
 let singhs = [
     {name: "cody", img: "/img/cody.jpg"},
     {name: "ella", img: "/img/ella.jpg"},
+    {name: "godzilla", img: "/img/godzilla.jpg"},
+    {name: "godzuki", img: "/img/godzuki.jpg"},
     {name: "kara", img: "/img/kara.jpg"},
+    {name: "markie", img: "/img/markie.jpg"},
     {name: "mika", img: "/img/mika.jpg"},
+    {name: "nani", img: "/img/nani.jpg"},
     {name: "oxy", img: "/img/oxy.jpg"},
+    {name: "papa", img: "/img/papa.jpg"},
+    {name: "reeree", img: "/img/reeree.jpg"},
     {name: "vish", img: "/img/vish.jpg"},
     {name: "Z", img: "/img/z.jpg"},
     {name: "ziggy", img: "/img/ziggy.jpg"},
 ]
 
-let stageEl = document.getElementById("stage")
 let fightButton = document.getElementById("fightButton")
 let player1pic = document.getElementById("player-1-img")
 let player2pic = document.getElementById("player-2-img")
