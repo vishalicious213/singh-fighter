@@ -4,6 +4,8 @@ let singhs = [
     {name: "alma", img: "/img/alma.jpg"},
     {name: "amigo", img: "/img/amigo.jpg"},
     {name: "asher", img: "/img/asher.jpg"},
+    {name: "aurora", img: "/img/aurora.png"},
+    {name: "bowie", img: "/img/bowie.png"},
     // {name: "chris", img: "/img/z.jpg"},
     {name: "cody", img: "/img/cody.jpg"},
     {name: "dan", img: "/img/dan.jpg"},
