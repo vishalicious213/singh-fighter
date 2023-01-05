@@ -48,6 +48,16 @@ function rollNum() {
     return Math.floor(Math.random() * singhs.length)
 }
 
+function randomBackground() {
+    let imgNum = Math.floor((Math.random() * 15) + 1)
+    const background = document.getElementById("background")
+    background.style.backgroundImage = `url("img/background/${imgNum}.webp")`
+    background.style.backgroundRepeat = "no-repeat"
+    background.style.backgroundSize = "cover"
+    background.style.backgroundPosition = "center"
+    background.style.backgroundAttachment = "fixed"
+}
+
 fightButton.addEventListener("click", function() {
     let player1 = rollNum()
     let player2 = rollNum()
@@ -56,6 +66,7 @@ fightButton.addEventListener("click", function() {
         player2 = rollNum()
     }
 
+    randomBackground()
     player1pic.src = `${singhs[player1].img}`
     player2pic.src = `${singhs[player2].img}`
     player1name.textContent = `${singhs[player1].name}`
