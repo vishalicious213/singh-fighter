@@ -67,9 +67,8 @@ p {
 }
 
 #player-1-img, #player-2-img {
-    border: 5px solid white;
-    border-radius: .5rem;
-
+    border: 10px solid;
+    border-image: linear-gradient(to right, blue, royalblue, cornflowerblue, dodgerblue, deepskyblue, lightskyblue, skyblue, lightblue, powderblue, lightsteelblue, white) 1;
 }
 
 button {
