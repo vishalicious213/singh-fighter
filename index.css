@@ -23,20 +23,26 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    opacity: .9;
+    opacity: .7;
 }
 
 h1 {
     text-shadow: 0px 3px 0px black;
     line-height: 3rem;
     transform: rotate(-9deg);
-    font-size: 3.5rem;
+    font-size: 4.5rem;
     margin-bottom: 4rem;
+}
+
+p {
+    color: firebrick;
+    text-shadow: 0px 3px 0px gainsboro;
+    transform: rotate(-9deg);
 }
 
 #stage {
     width: 90%;
-    font-size: 4rem;
+    font-size: 5rem;
     margin-bottom: 2rem;
     display: flex;
     justify-content: space-around;
@@ -61,20 +67,29 @@ h1 {
 
 #player-1-name, #player-2-name {
     margin: 0;
+    color: firebrick;
+    text-shadow: 0px 3px 0px gainsboro;
+    transform: rotate(-5deg);
+}
+
+#player-1-img, #player-2-img {
+    border: 5px solid white;
+    border-radius: .5rem;
+
 }
 
 button {
     cursor: pointer;
-    border: 0;
+    border: 1px solid gainsboro;
     padding: .5rem 2rem;
     border-radius: .75rem;
     background: #e98a1d;
     color: white;
     font-family: inherit;
-    font-size: 20px
+    font-size: 2.5rem;
 }
 
 button:hover {
-    color: #e98a1d;
-    background: white;
+    border: 1px solid white;
+    background: firebrick;
 }
