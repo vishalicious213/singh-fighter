@@ -33,7 +33,7 @@ let singhs = [
     {name: "vash", img: "/img/vash.jpg"},
     {name: "vish", img: "/img/vish.jpg"},
     // {name: "weiwei", img: "/img/z.jpg"},
-    // {name: "xan", img: "/img/z.jpg"},
+    {name: "xan", img: "/img/xan.jpg"},
     {name: "Z", img: "/img/z.jpg"},
     {name: "ziggy", img: "/img/ziggy.jpg"},
 ]
