@@ -23,6 +23,7 @@ let singhs = [
     {name: "oxy", img: "/img/oxy.jpg"},
     {name: "papa", img: "/img/papa.jpg"},
     {name: "pola", img: "/img/pola.jpg"},
+    {name: "poop", img: "/img/poop.jpg"},
     {name: "reeree", img: "/img/reeree.jpg"},
     // {name: "richie", img: "/img/z.jpg"},
     {name: "sam", img: "/img/sam.jpg"},
